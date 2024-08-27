@@ -1,0 +1,15 @@
+from tiss.tiss_solicitacao_status_protocolo_recurso_port_type_tiss_solicitacao_status_protocolo_recurso_operation_input import (
+    TissSolicitacaoStatusProtocoloRecursoPortTypeTissSolicitacaoStatusProtocoloRecursoOperationInput,
+)
+from tiss.tiss_solicitacao_status_protocolo_recurso_port_type_tiss_solicitacao_status_protocolo_recurso_operation_output import (
+    TissSolicitacaoStatusProtocoloRecursoPortTypeTissSolicitacaoStatusProtocoloRecursoOperationOutput,
+)
+
+__NAMESPACE__ = "http://www.ans.gov.br/tiss/ws/tipos/tisscancelaguia/v40100"
+
+
+class TissSolicitacaoStatusProtocoloRecursoPortTypeTissSolicitacaoStatusProtocoloRecursoOperation:
+    style = "document"
+    transport = "http://schemas.xmlsoap.org/soap/http"
+    input = TissSolicitacaoStatusProtocoloRecursoPortTypeTissSolicitacaoStatusProtocoloRecursoOperationInput
+    output = TissSolicitacaoStatusProtocoloRecursoPortTypeTissSolicitacaoStatusProtocoloRecursoOperationOutput
